@@ -1,8 +1,8 @@
 const { test, expect } = require("@playwright/test");
 
 // credentials
-const EMAIL = "sushma.tacholi@gmail.com";
-const PASSWORD = "Sushma@1234";
+const EMAIL = "********@gmail.com";
+const PASSWORD = "******@1234";
 
 test("Filter events, open event details, and compare cards", async ({
   page,
